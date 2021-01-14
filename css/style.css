@@ -50,6 +50,9 @@ header{
 .card-inner-box img{
    height: 100%;
    width: auto;
+}
+.card-items{
+    border: 0;
     border-radius: 15px;
     padding: 20px 0;
 }
@@ -85,9 +88,10 @@ footer{
 .footer-left-content{
     width: 300px;
 }
-.footer-left-box{
-    background-color: red;
-}
+
+
+
+
 
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -96,7 +100,7 @@ footer{
         max-width: 400px;
     }
     .footer-image img{
-        max-width: 0px;
+        max-width: 400px;
         height: auto;
     }
     
