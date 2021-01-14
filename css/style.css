@@ -92,9 +92,7 @@ footer{
 
 
 
-
-
-/* // X-Small devices (portrait phones, less than 576px) */
+/* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .image-sizing img{
         max-width: 400px;
@@ -106,7 +104,7 @@ footer{
     
  }
 
-/* // Small devices (landscape phones, less than 768px) */
+/* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .website-logo img{
         max-width: 200px;
@@ -118,7 +116,7 @@ footer{
     
  }
 
-/* // Medium devices (tablets, less than 992px) */
+/* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
     .footer-image img{
         max-width: 600px;
