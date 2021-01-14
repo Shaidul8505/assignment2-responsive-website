@@ -1,11 +1,79 @@
+
+header{
+    background-color: #fff7f6;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .website-logo img{
     max-width: 500px;
 }
+.image-sizing img{
+    width: 500px;
+}
+.top-bar h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: tomato;
+    width: 500px;
+    margin-bottom: 15px;
+}
+.top-bar span{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2c0942;
+}
+.top-bar p{
+    width: 380px;
+    color: #666;
+    font-weight: 500;
+}
+.top-bar button{
+    background-color: yellowgreen;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.main-bar-one h1{
+    margin-bottom: 40px;
+    color: #222;
+    font-weight: 700;
+}
 
-
-
-
-
+.card-inner-box{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-inner-box img{
+   height: 100%;
+   width: auto;
+}
+.card-items{
+    border: 0;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+.card-items h3{
+    color: #333;
+    font-weight: 600;
+}
+.card-item-footer{
+    border: 0;
+    background-color: #fff;
+}
+.card-item-footer button{
+    background-color: yellowgreen;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.card-price h2{
+    font-weight: 700;
+    color: orange;
+}
 
 
 
@@ -14,7 +82,9 @@
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-   
+    .image-sizing img{
+        max-width: 400px;
+    }
     
  }
 
