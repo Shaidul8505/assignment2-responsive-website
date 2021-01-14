@@ -82,13 +82,18 @@ footer{
     height: 107px;
 }
 .footer-image img{
-    height: 330px;
+    height: 430px;
     width: auto;
 }
 .footer-left-content{
     width: 300px;
 }
-
+.footer-left-box{
+    box-shadow: 2px 1px 20px #888888;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
 
 
@@ -96,6 +101,7 @@ footer{
 @media (max-width: 575.98px) { 
     .image-sizing img{
         max-width: 400px;
+        height: 320px;
     }
     .footer-image img{
         max-width: 400px;
@@ -118,10 +124,6 @@ footer{
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-    .footer-image img{
-        max-width: 600px;
-        height: auto;
-    }
     
  }
 
